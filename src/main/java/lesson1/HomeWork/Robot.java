@@ -1,11 +1,11 @@
-package lesson1;
+package lesson1.HomeWork;
 
-public class Cat implements Skills {
+public class Robot implements Skills {
     private String name;
     private int speedRun;
     private double heightJump;
 
-    public Cat(String name, int speedRun, double heightJump) {
+    public Robot(String name, int speedRun, double heightJump) {
         this.name = name;
         this.speedRun = speedRun;
         this.heightJump = heightJump;
@@ -28,13 +28,13 @@ public class Cat implements Skills {
 
     @Override
     public int run() {
-        System.out.println("Кот " + name + " может бежать со скоростью " + getSpeedRun() + " км/ч.");
+        System.out.println("Робот " + name + " может бежать со скоростью " + getSpeedRun() + " км/ч.");
         return speedRun;
     }
 
     @Override
     public double jump() {
-        System.out.println("Кот " + name + " может прыгнуть на высоту " + heightJump + " метров.");
+        System.out.println("Робот " + name + " может прыгнуть на высоту " + heightJump + " метров.");
         return heightJump;
     }
 }

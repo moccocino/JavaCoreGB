@@ -1,4 +1,7 @@
-package lesson1;
+package lesson1.HomeWork;
+
+import lesson1.HomeWork.Obstacle;
+import lesson1.HomeWork.Skills;
 
 public class Wall implements Obstacle {
     private double height;

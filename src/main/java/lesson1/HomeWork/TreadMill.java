@@ -1,4 +1,7 @@
-package lesson1;
+package lesson1.HomeWork;
+
+import lesson1.HomeWork.Obstacle;
+import lesson1.HomeWork.Skills;
 
 public class TreadMill implements Obstacle {
     private int speed;

@@ -1,11 +1,11 @@
-package lesson1;
+package lesson1.HomeWork;
 
-public class Robot implements Skills {
+public class Human implements Skills {
     private String name;
     private int speedRun;
     private double heightJump;
 
-    public Robot(String name, int speedRun, double heightJump) {
+    public Human(String name, int speedRun, double heightJump) {
         this.name = name;
         this.speedRun = speedRun;
         this.heightJump = heightJump;
@@ -28,13 +28,13 @@ public class Robot implements Skills {
 
     @Override
     public int run() {
-        System.out.println("Робот " + name + " может бежать со скоростью " + getSpeedRun() + " км/ч.");
+        System.out.println("Человек " + name + " может бежать со скоростью " + getSpeedRun() + " км/ч.");
         return speedRun;
     }
 
     @Override
     public double jump() {
-        System.out.println("Робот " + name + " может прыгнуть на высоту " + heightJump + " метров.");
+        System.out.println("Человек " + name + " может прыгнуть на высоту " + heightJump + " метров.");
         return heightJump;
     }
 }
