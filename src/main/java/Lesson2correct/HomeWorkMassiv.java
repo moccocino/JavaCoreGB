@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson2correct;
 
 public class HomeWorkMassiv {
     public static void main(String[] args) {

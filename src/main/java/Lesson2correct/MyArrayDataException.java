@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson2correct;
 
 public class MyArrayDataException extends Exception{
     public MyArrayDataException(int i, int j) {
