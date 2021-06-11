@@ -1,4 +1,4 @@
-package Lesson5;
+package Lesson5correct;
 import java.io.*;
 
 public class test {
